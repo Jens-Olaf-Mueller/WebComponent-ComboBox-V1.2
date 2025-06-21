@@ -63,3 +63,8 @@
 <image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot2.jpg">
 <image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot3.jpg">
 <image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot4.jpg">
+	
+### Different styles
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot5.jpg">
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot6.jpg">
+
