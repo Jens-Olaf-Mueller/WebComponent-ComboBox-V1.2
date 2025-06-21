@@ -26,16 +26,18 @@
   Just link the [combobox_class.js](./src/combobox_class.js) in your project(s).
   Now you can use it either by JavaScript or HTML or both.
 
-  ### HTML
+  #### HTML
   
   ```html
-  <combo-box type="list" size="7" name="myNewCombo" extendable
+  <combo-box name="myNewCombo" type="list" 
+      size="7"
       options="Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
-      placeholder=" please select a weekday ">
+      placeholder=" please select a weekday "
+      extendable>
   </combo-box>
   ```
 
-  ### JavaScript
+  #### JavaScript
 
   ```javascript
   const combo = new ComboBox();
@@ -62,12 +64,24 @@
     - added events
    
 ## Screenshots
+
 <image src="/img/Screenshot1.jpg">
 <image src="/img/Screenshot2.jpg">
 <image src="/img/Screenshot3.jpg">
 <image src="/img/Screenshot4.jpg">
 	
-### Different styles
+#### Different styles
+  It is possible to style the list elements via CSS-properties:
+  
+  ```css
+    --combo-arrow-size: 2rem;            /* size of the dropdown arrow */
+    --combo-accent-color: darkgreen;     /* color dropdown arrow or plus-icon */
+    --combo-list-background: lightgreen; /* background color of the dropdown list */
+    --combo-selected-background-color: green; /* background color of the selected item */
+    --combo-selected-color: lightyellow; /* highlight color of the selected item */
+    --combo-item-padding: 0.5rem 1rem;   /* padding for the list items */
+  ```
+
 <image src="/img/Screenshot5.jpg">
 <image src="/img/Screenshot6.jpg">
 
