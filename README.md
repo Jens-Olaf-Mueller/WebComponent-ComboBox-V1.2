@@ -59,4 +59,4 @@
     - added events
    
 ## Screenshot
-	<image src="">
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot1.jpg">
