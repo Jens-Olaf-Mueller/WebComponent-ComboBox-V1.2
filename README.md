@@ -25,7 +25,7 @@
 
 
 ## Full JSDoc documentation
-  A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/index.html)
+  A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
 
 ## Demo
   For a demo visit my [demo page](https://jom-soft.com/webcomponents/combobox/index.html)
