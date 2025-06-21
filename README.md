@@ -7,7 +7,7 @@
   * [Demo](#demo)
   * [ToDo](#todo)
   * [Change Log](#change-log)
-	* [Screenshot](#screenshot)
+  * [Screenshot](#screenshot)
 
 
 ## Brief 
@@ -26,9 +26,19 @@
   Just link the [combobox_class.js](./src/combobox_class.js) in your project(s).
   Now you can use it either by JavaScript or HTML or both.
 
- 	### HTML
-		<combo-box><combo-box>
-	
+  ### HTML
+  ``
+  <combo-box type="list" size="7" name="myNewCombo" extendable 
+  	     options="Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+	     placeholder=" please select a weekday ">
+  </combo-box>
+  ``
+  ### JavaScript
+  ```
+  const combo = new ComboBox();
+  combo.size = 7;
+  combo.options = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  ```
 
 ## Full JSDoc documentation
   A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
