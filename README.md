@@ -5,7 +5,7 @@
   * [How to Use](#how-to-use)
   * [Documentation](#full-jsdoc-documentation)
   * [Demo](#demo)
-  * [ToDo](#ToDo)
+  * [ToDo](#todo)
   * [Change Log](#change-log)
 
 
@@ -18,11 +18,12 @@
   The element supports some specific attributes and all global HTML attributes.
   It dispatches different events in order to interact with the user.
   The element can be styled by CSS like any other HTML element and it supports some specific own CSS-properties.
-  It is also completely accessable by JavaScript.
-
+  It is also completely accessable by JavaScript and provides full HTML form support.
+		
   
 ## How to use
-
+  Just link the [combobox_class.js](./src/combobox_class.js) in your project(s).
+  Now you can use it either by 
 
 ## Full JSDoc documentation
   A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
