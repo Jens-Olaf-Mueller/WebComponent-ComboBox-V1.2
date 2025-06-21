@@ -27,14 +27,17 @@
   Now you can use it either by JavaScript or HTML or both.
 
   ### HTML
-  ``
-  <combo-box type="list" size="7" name="myNewCombo" extendable 
-  	     options="Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
-	     placeholder=" please select a weekday ">
+  
+  ```html
+  <combo-box type="list" size="7" name="myNewCombo" extendable
+      options="Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+      placeholder=" please select a weekday ">
   </combo-box>
-  ``
-  ### JavaScript
   ```
+
+  ### JavaScript
+
+  ```javascript
   const combo = new ComboBox();
   combo.size = 7;
   combo.options = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
