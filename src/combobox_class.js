@@ -62,7 +62,7 @@ TMP_COMBOSTYLE.innerHTML = `
             justify-content: space-between;
             border-left: 1px solid silver;
             border-right: 1px solid silver;
-            background-color: field;
+            background-color: var(--combo-list-background, field);
             padding: var(--combo-item-padding, 0.25rem 0.5rem);
         }
 
@@ -851,6 +851,7 @@ class ComboBox extends HTMLElement {
         }
         list[this.#listindex].setAttribute('selected','');
         list[this.#listindex].scrollIntoView({block: 'center'});
+        // TODO maybe here is the reason for scrolling up the whole page on long lists
     }
 
 
