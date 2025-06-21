@@ -7,7 +7,7 @@
   * [Demo](#demo)
   * [ToDo](#todo)
   * [Change Log](#change-log)
-  * [Screenshot](#screenshot)
+  * [Screenshots](#screenshots)
 
 
 ## Brief 
@@ -58,5 +58,8 @@
   * V1.2.0
     - added events
    
-## Screenshot
+## Screenshots
 <image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot1.jpg">
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot2.jpg">
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot3.jpg">
+<image src="https://jom-soft.com/webcomponents/combobox/img/Screenshot4.jpg">
