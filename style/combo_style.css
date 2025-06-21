@@ -1,0 +1,18 @@
+/* :root {
+    --combo-arrow-size: 1.25rem;
+    --combo-accent-color: darkgreen;
+    --combo-selected-background-color: pink;
+    --combo-selected-color: tomato;
+    --combo-item-padding: 0.5rem 1rem;
+} */
+
+/* Styling the custom combobox from outside */
+combo-box {
+    border-radius: 3px;
+    height: 1.5rem;   
+}
+
+combo-box:focus {
+    outline: 2px solid #222;
+    background-color: rgb(244, 244, 175);
+}
