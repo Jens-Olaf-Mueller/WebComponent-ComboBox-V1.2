@@ -45,15 +45,19 @@
   combo.options = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   ```
 
+
 ## Full JSDoc documentation
   A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
+
 
 ## Demo
   For a demo visit my [demo page](https://jom-soft.com/webcomponents/combobox/index.html)
 
+
 ## ToDo
   - fix an issue when a long list is dropped and the user presses the Cursor down key.
   - support more events
+
 
 ## Change Log
   * V1.0.0
@@ -62,12 +66,18 @@
     - fixed some minor bugs and added new attributes
   * V1.2.0
     - added events
-   
+
+
 ## Screenshots
 
 <image src="/img/Screenshot1.jpg">
+  Input of a not existing item displays the PLUS-sign on the right side, if the extendable attribute is set. Indicating that the new item can be added.
 <image src="/img/Screenshot2.jpg">
+
+  The sort attribute displays the list sorted.
 <image src="/img/Screenshot3.jpg">
+
+  The size attribute defines how many items are displayed in the dropped list.
 <image src="/img/Screenshot4.jpg">
 	
 #### Different styles
@@ -84,4 +94,3 @@
 
 <image src="/img/Screenshot5.jpg">
 <image src="/img/Screenshot6.jpg">
-
