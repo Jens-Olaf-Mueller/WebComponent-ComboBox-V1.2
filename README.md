@@ -7,6 +7,7 @@
   * [Demo](#demo)
   * [ToDo](#todo)
   * [Change Log](#change-log)
+	* [Screenshot](#screenshot)
 
 
 ## Brief 
@@ -23,7 +24,11 @@
   
 ## How to use
   Just link the [combobox_class.js](./src/combobox_class.js) in your project(s).
-  Now you can use it either by 
+  Now you can use it either by JavaScript or HTML or both.
+
+ 	### HTML
+		<combo-box><combo-box>
+	
 
 ## Full JSDoc documentation
   A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
@@ -42,3 +47,6 @@
     - fixed some minor bugs and added new attributes
   * V1.2.0
     - added events
+   
+## Screenshot
+	<image src="">
