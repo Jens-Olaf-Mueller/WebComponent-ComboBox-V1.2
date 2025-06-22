@@ -78,7 +78,7 @@
 ## Screenshots
 
 <image src="/img/Screenshot1.jpg">
-  Input of a not existing item displays the PLUS-sign on the right side, if the extendable attribute is set and indicates that the new item can be added by pressing the ```ENTER``` key.
+  Input of a not existing item displays the PLUS-sign on the right side, if the extendable attribute is set and indicates that the new item can be added by pressing the <kbd> ENTER </kbd> key.
 <image src="/img/Screenshot2.jpg">
 
   The sort attribute displays the list sorted.
