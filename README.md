@@ -53,7 +53,7 @@
 
   #### CSS
 
-    ```css
+  ```css
   /* size of the dropdown arrow or plus-icon */
   --combo-arrow-size: 2rem;
 
