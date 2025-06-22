@@ -78,7 +78,7 @@
 ## Screenshots
 
 <image src="/img/Screenshot1.jpg">
-  Input of a not existing item displays the PLUS-sign on the right side, if the extendable attribute is set. Indicating that the new item can be added.
+  Input of a not existing item displays the PLUS-sign on the right side, if the extendable attribute is set and indicates that the new item can be added by pressing the ```ENTER``` key.
 <image src="/img/Screenshot2.jpg">
 
   The sort attribute displays the list sorted.
@@ -87,14 +87,29 @@
   The size attribute defines how many items are displayed in the dropped list.
 <image src="/img/Screenshot4.jpg">
 	
-  #### Different styles
+  #### Styling the element's inside appearance
   Except from common styling of the component, you can style the list elements with these implemented CSS-properties:
+
+  ```css
+  /* color dropdown arrow or plus-icon */
+  --combo-accent-color: red;
+
+  /* background color of the selected item */
+  --combo-selected-background-color: pink;
+
+  /* text color of the selected item */
+  --combo-selected-color: red;
+
+  /* padding for the list items */
+  --combo-item-padding: 0.5rem 1rem;
+  ```
+<image src="/img/Screenshot5.jpg">
 
   ```css
   /* size of the dropdown arrow */
   --combo-arrow-size: 2rem;
 
-  /* color dropdown arrow or plus-icon */
+  /* color of the dropdown arrow or plus-icon */
   --combo-accent-color: darkgreen;
 
   /* background color of the dropdown list */
@@ -103,12 +118,7 @@
   /* background color of the selected item */
   --combo-selected-background-color: green;
 
-  /* highlight color of the selected item */
+  /* text color of the selected item */
   --combo-selected-color: lightyellow;
-
-  /* padding for the list items */
-  --combo-item-padding: 0.5rem 1rem;
   ```
-
-<image src="/img/Screenshot5.jpg">
 <image src="/img/Screenshot6.jpg">
