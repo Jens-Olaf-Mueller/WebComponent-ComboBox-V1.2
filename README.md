@@ -6,10 +6,9 @@
   * [How to Use](#how-to-use)
   * [Documentation](#full-jsdoc-documentation)
   * [Demo](#demo)
-  * [ToDo](#todo)
   * [Change Log](#change-log)
   * [Screenshots](#screenshots)
-
+  * [ToDo](#todo)
 
 ## Brief 
   This web component provides a new HTML element that combines the features of three standard HTML elements:
@@ -52,6 +51,27 @@
   combo.options = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
   ```
 
+  #### CSS
+
+    ```css
+  /* size of the dropdown arrow or plus-icon */
+  --combo-arrow-size: 2rem;
+
+  /* color of the dropdown arrow or plus-icon */
+  --combo-accent-color: darkgreen;
+
+  /* background color of the dropdown list */
+  --combo-list-background: lightgreen;
+
+  /* background color of the selected item */
+  --combo-selected-background-color: green;
+
+  /* text color of the selected item */
+  --combo-selected-color: lightyellow;
+
+  /* padding for the list items */
+  --combo-item-padding: 0.5rem 1rem;
+  ```
 
 ## Full JSDoc documentation
   A full documentation of the component you will find [here](https://jom-soft.com/webcomponents/combobox/docs/ComboBox.html)
@@ -61,11 +81,6 @@
   For a demo visit the [demo page](https://jom-soft.com/webcomponents/combobox/index.html)
 
 
-## ToDo
-  - fix an issue when a long list is dropped and the user presses the Cursor down key.
-  - support more events
-
-
 ## Change Log
   * V1.0.0
       - first stable version
@@ -73,6 +88,7 @@
       - fixed some minor bugs and added new attributes
   * V1.2.0
       - added events
+      - added readme file
 
 
 ## Screenshots
@@ -91,34 +107,28 @@
   Except from common styling of the component, you can style the list elements with these implemented CSS-properties:
 
   ```css
-  /* color dropdown arrow or plus-icon */
+  /* change the color of the dropdown arrow or plus-icon */
   --combo-accent-color: red;
-
-  /* background color of the selected item */
+  /* set the background color of the selected item to pink */
   --combo-selected-background-color: pink;
-
-  /* text color of the selected item */
-  --combo-selected-color: red;
-
-  /* padding for the list items */
-  --combo-item-padding: 0.5rem 1rem;
+  /* set the text color of the selected item to red */
+  --combo-selected-color: red; /* or #ff0000 | rgb(255,0,0) */
   ```
 <image src="/img/Screenshot5.jpg">
 
   ```css
-  /* size of the dropdown arrow */
+  /* change the size of the dropdown arrow or plus-icon */
   --combo-arrow-size: 2rem;
-
-  /* color of the dropdown arrow or plus-icon */
   --combo-accent-color: darkgreen;
-
-  /* background color of the dropdown list */
+  /* set the background color of the dropdown list to lightgreen */
   --combo-list-background: lightgreen;
-
-  /* background color of the selected item */
   --combo-selected-background-color: green;
-
-  /* text color of the selected item */
   --combo-selected-color: lightyellow;
   ```
 <image src="/img/Screenshot6.jpg">
+
+
+## ToDo
+  - fix an issue when a long list is dropped and the user presses the Cursor down key.
+  - support more events
+  - improving mobile support
