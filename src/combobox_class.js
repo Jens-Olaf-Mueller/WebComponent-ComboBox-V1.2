@@ -119,7 +119,7 @@ TMP_COMBOSTYLE.innerHTML = `
             fill: #aaa;
         }
 
-        :host[hidden], [hidden] {
+        :host(hidden), [hidden] {
             display: none;
         }
     </style>`;
@@ -159,9 +159,9 @@ class ComboBox extends HTMLElement {
 
     /**
      * @summary `getter`
-     * Returns an array of all <code>getters</code> and <code>setters</code> of this class.
-     * If only <code>getters</code> are wanted, the code must be changed from:
-     * <code>...=> typeof descriptor.set  === 'function' TO: ...=> typeof descriptor.<strong>get</strong> === 'function'</code>
+     * Returns an array of all <kbd>getters</kbd> and <kbd>setters</kbd> of this class.
+     * If only <kbd>getters</kbd> are wanted, the code must be changed from:
+     * <kbd>...=> typeof descriptor.set  === 'function' TO: ...=> typeof descriptor.<strong>get</strong> === 'function'</kbd>
      * @memberof ComboBox
      * @member {String.<Array>} properties
      * @readonly
@@ -422,7 +422,6 @@ class ComboBox extends HTMLElement {
         super();
         this.attachShadow({mode: 'open', delegatesFocus: true});
         this.#createChildren();
-        // this.importStyleSheet();
         this.onArrowClick = this.onArrowClick.bind(this);
         this.onInput = this.onInput.bind(this);
         this.onKeydown = this.onKeydown.bind(this);
@@ -628,7 +627,10 @@ class ComboBox extends HTMLElement {
                 this.#highlightSelectedItem(this.input.value);
             }
         }
-        if (key === 'Delete') this.input.value = '';
+        if (key === 'Delete') {
+            this.input.value = '';
+            this.showIcon('arrow');
+        }
     }
 
 
@@ -771,6 +773,7 @@ class ComboBox extends HTMLElement {
      * @param {string} selector An attribute given in the stylesheet link
      * to recognize it for this component.
      * @ignore
+     * @deprecated
      */
     importStyleSheet(selector = 'link[data-control]') {
         const link = document.querySelector(selector);
